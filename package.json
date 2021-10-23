@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "cy:run:electron": "npx cypress run",
+        "cy:run:chrome": "npx cypress run --browser chrome --headless",
+        "cy:run:firefox": "npx cypress run --browser firefox --headless"
+    },
+    "devDependencies": {
+        "@bahmutov/cy-api": "^1.5.0",
+        "cypress": "^8.4.0",
+        "cypress-file-upload": "^5.0.8",
+        "cypress-localstorage-commands": "^1.5.0",
+        "cypress-xpath": "^1.6.2"
+    }
+}

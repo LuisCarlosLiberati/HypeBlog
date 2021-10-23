@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubsercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://hypeflame.blog/", 
+    "viewportWidth": 1400,
+    "viewportHeight": 1050,
+    "defaultCommandTimeout": 10000,
+    "testFiles": "**/*spec.*",
+    "scrollBehavior": "center",
+    "experimentalSourceRewriting": true,
+    "watchForFileChanges": false,
+    "reporter":"junit",
+    "reporterOptions":{
+        "mochaFile": "cypress/reports/junit-[hash].xml"
+    },
+
+    "chromeWebSecurity": false,
+    "experimentalSessionSupport ": true
+}
+
+
