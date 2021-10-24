@@ -14,4 +14,11 @@ Após baixar o projeto executar os seguintes comandos:
 executar a seguinte linha de comando para executar todos os testes no edge sem fechar o browser:
 npx cypress run --browser edge --no-exit
 
-Vídeos Execução
+Vídeos Execução:
+
+NavegacaoPorPostagens.spec.js:
+
+https://files.fm/f/pks9nzfvm
+
+NavegaçãoMenus.spec.js:
+https://files.fm/f/hrdw2yc9e
