@@ -32,3 +32,12 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   // failing the test
   return false
 })
+
+//executa sempre uma vez antes de cada teste
+beforeEach(() => {
+
+  //irá abrir antes de cada teste a pagina do blog.
+  cy.visit("https://hypeflame.blog/");
+
+})
+  
